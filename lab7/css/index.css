@@ -7,4 +7,7 @@ img {
 }
 div#lab {
   padding:50px;
+  background-color: lightgray;
+  border: solid 1px #333333;
+  height: 80vh;
 }
