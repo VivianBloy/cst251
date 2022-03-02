@@ -12,16 +12,26 @@ div#content {
     height: 80vh;
 }
 
-div.challenge {
-  font-family: fantasy;
+div#title {
+    color: white;
+    -webkit-text-stroke: 2px black;
+    /* this line of text from https://www.codesdope.com/blog/article/adding-outline-to-text-using-css/ */
 }
 
-div.problem {
+div#content {
   font-family: cursive;
 }
 
+div.challenge {
+  color: purple;
+}
+
+div.problems {
+  color: black;
+}
+
 div.results {
-  font-family:
+  color: Yellow;
 }
 
 h1, h2, h3 {
