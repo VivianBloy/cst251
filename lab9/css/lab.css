@@ -1,0 +1,48 @@
+div#title {
+    color:white;
+    -webkit-text-stroke: 2px black;
+}
+
+body {
+    font-family: Helvetica, Verdana, Arial, "san serif";
+    background-color: #9281B0;
+    padding: 25px;
+    font-size: 120%;
+}
+
+p {
+  color: #5C5664;
+}
+
+div#content {
+    padding: 60px;
+    background-color: #CCC2DC;
+    border: solid 2px #333333;
+    height: 80vh;
+}
+
+h1, h2, h3 {
+    font-family: "Courier New", monospace;
+}
+
+img {
+    padding: 20px;
+    float: right;
+    width: 300px;
+    height: auto;
+}
+
+img:hover {
+    width: 400px;
+    height: auto;
+    border: solid 5px white;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    text-decoration: underline;
+    text-decoration-style: wavy;
+}
