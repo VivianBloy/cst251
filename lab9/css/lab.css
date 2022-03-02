@@ -1,13 +1,13 @@
-div#title {
-    color:white;
-    -webkit-text-stroke: 2px black;
-}
-
 body {
     font-family: Helvetica, Verdana, Arial, "san serif";
     background-color: #9281B0;
     padding: 25px;
     font-size: 120%;
+}
+
+div#title {
+    color:white;
+    -webkit-text-stroke: 2px black;
 }
 
 p {
