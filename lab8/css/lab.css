@@ -12,6 +12,18 @@ div#content {
     height: 80vh;
 }
 
+div.challenge {
+  font-family: fantasy;
+}
+
+div.problem {
+  font-family: cursive;
+}
+
+div.results {
+  font-family:
+}
+
 h1, h2, h3 {
     font-family: "Courier New", monospace;
 }
