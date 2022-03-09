@@ -19,10 +19,15 @@ div#content {
     background-color: #CCC2DC;
     border: solid 2px #333333;
     height: 80vh;
+    font-family: "Lucida Console", "Courier New", monospace;
 }
 
 h1, h2, h3 {
     font-family: "Courier New", monospace;
+}
+
+div.message {
+  font-family: wingdings;
 }
 
 img {
