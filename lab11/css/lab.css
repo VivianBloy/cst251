@@ -11,15 +11,15 @@ div#title {
 }
 
 p {
-  color: #5C5664;
+    color: #5C5664;
 }
 
 main#content {
-  padding: 60px;
-  background-color: #CCC2DC;
-  border: solid 2px #333333;
-  height: 100vh;
-  font-family: "Lucida Console", "Courier New", monospace;
+    padding: 60px;
+    background-color: #CCC2DC;
+    border: solid 2px #333333;
+    height: 100vh;
+    font-family: "Lucida Console", "Courier New", monospace;
 }
 
 h1, h2, h3 {
@@ -27,17 +27,28 @@ h1, h2, h3 {
 }
 
 aside#sidebar {
-  float: right;
-  display: inline-block;
-  width: 33%;
-  min-width: 300px;
-  border: solid 2px #333333;
-  padding: 20px;
-  background-color: white;
+    float: right;
+    display: inline-block;
+    width: 33%;
+    min-width: 300px;
+    border: solid 2px #333333;
+    padding: 20px;
+    background-color: lightgrey;
+}
+
+nav#links {
+    position: fixed;
+    top: 20px;
+}
+
+nav#links a {
+    border: solid 2px #333333;
+    padding: 5px;
+    background-color: lightgrey;
 }
 
 div.message {
-  font-family: wingdings;
+    font-family: wingdings;
 }
 
 img {
