@@ -15,14 +15,25 @@ p {
 }
 
 main#content {
-    padding: 60px;
-    background-color: #CCC2DC;
-    border: solid 2px #333333;
-    font-family: "Lucida Console", "Courier New", monospace;
+  padding: 60px;
+  background-color: #CCC2DC;
+  border: solid 2px #333333;
+  height: 100vh;
+  font-family: "Lucida Console", "Courier New", monospace;
 }
 
 h1, h2, h3 {
     font-family: "Courier New", monospace;
+}
+
+aside#sidebar {
+  float: right;
+  display: inline-block;
+  width: 33%;
+  min-width: 300px;
+  border: solid 2px #333333;
+  padding: 20px;
+  background-color: white;
 }
 
 div.message {
@@ -30,12 +41,13 @@ div.message {
 }
 
 img {
+    float: right;
     width: 300px;
     height: auto;
 }
 
 img:hover {
-    width: 400px;
+    width: 320px;
     height: auto;
     border: solid 5px white;
 }
