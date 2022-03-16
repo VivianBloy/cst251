@@ -3,11 +3,17 @@ body {
     background-color: #9281B0;
     padding: 25px;
     font-size: 120%;
+    background-image: url("../img/night-in-the-woods-2.jpg");
 }
 
 div#title {
     color:white;
     -webkit-text-stroke: 2px black;
+    padding: 20px;
+    background-color: #CCC2DC;
+    border: solid 2px #333333;
+    border-radius: 25px;
+
 }
 
 p {
@@ -15,11 +21,60 @@ p {
 }
 
 div#content {
+    position: relative;
+    width: 30%;
     padding: 60px;
     background-color: #CCC2DC;
     border: solid 2px #333333;
-    height: 80vh;
     font-family: "Lucida Console", "Courier New", monospace;
+    border-radius: 25px;
+}
+
+aside#sidebar {
+    border-radius: 25px;
+    float: right;
+    width: 30%;
+    padding: 60px;
+    background-color: #CCC2DC;
+    border: solid 2px #333333;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+div#floated {
+    float: right;
+    border: dashed 2px #333333;
+    background-color: lightgrey;
+    border-radius: 25px;
+}
+
+div#center-horz {
+    text-align: center;
+    border: dashed 2px #333333;
+    background-color: lightgrey;
+    border-radius: 25px;
+}
+
+div#center-img {
+    text-align: center;
+    border: dashed 2px #333333;
+    background-color: lightgrey;
+    border-radius: 25px;
+}
+
+div#center-both {
+    height: 200px;
+    position: relative;
+    border: dashed 2px #333333;
+    background-color: lightgrey;
+    border-radius: 25px;
+}
+
+div#center-both img {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 h1, h2, h3 {
@@ -27,19 +82,18 @@ h1, h2, h3 {
 }
 
 img {
-    padding: 20px;
-    float: right;
-    width: 300px;
+    padding: 5px;
+    width: 100px;
     height: auto;
-}
-
-img:hover {
-    width: 320px;
-    height: auto;
-    border: solid 5px white;
 }
 
 a {
+    padding: 10px;
+    border: dashed 2px #333333;
+    background-color: lightgrey;
+    border-radius: 25px;
+    float: left;
+    clear: left;
     text-decoration: none;
     color: black;
 }
