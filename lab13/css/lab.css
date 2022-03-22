@@ -4,3 +4,54 @@ iframe#fake {
     resize: both;
     overflow: hidden;
 }
+body {
+    font-family: Helvetica, Verdana, Arial, "san serif";
+    background-color: #9281B0;
+    padding: 25px;
+}
+
+div#title {
+    color:white;
+    -webkit-text-stroke: 2px black;
+}
+
+p {
+    color: #5C5664;
+}
+
+main#content {
+    padding: 60px;
+    background-color: #CCC2DC;
+    border: solid 2px #333333;
+    height: 80vh;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+h1, h2, h3 {
+    font-family: "Courier New", monospace;
+}
+
+aside#sidebar {
+    float: right;
+    display: inline-block;
+    width: 33%;
+    min-width: 300px;
+    border: solid 2px #333333;
+    padding: 20px;
+    background-color: lightgrey;
+}
+
+nav#links a {
+    border: solid 2px #333333;
+    padding: 5px;
+    background-color: lightgrey;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    text-decoration: underline;
+    text-decoration-style: wavy;
+}
