@@ -1,7 +1,8 @@
 body {
     font-family: Helvetica, Verdana, Arial, "san serif";
-    background-color: #9281B0;
+    background-image: linear-gradient(white, #9281B0, #735E97);
     padding: 25px;
+    height: 130vh;
 }
 
 div#title {
@@ -12,6 +13,7 @@ div#title {
     background-color: #CCC2DC;
     border: solid 2px #333333;
     border-radius: 10px;
+    box-shadow: 0 0 10px black;
 }
 
 p {
@@ -25,10 +27,12 @@ main#content {
     border: solid 2px #333333;
     border-radius: 10px;
     font-family: "Lucida Console", "Courier New", monospace;
+    box-shadow: 0 0 10px black;
 }
 
 h1, h2, h3 {
     font-family: "Courier New", monospace;
+    text-shadow: 0 0 4px black;
 }
 
 aside#sidebar {
@@ -40,6 +44,18 @@ aside#sidebar {
     background-color: #CCC2DC;
     border-radius: 11px;
     font-family: "Lucida Console", "Courier New", monospace;
+    box-shadow: 0 0 10px black;
+}
+
+aside img {
+    filter: grayscale(100%);
+    transform: rotate(45deg);
+}
+
+main img {
+    width: 200px;
+    height: 300px;
+    object-fit: cover
 }
 
 ul {
