@@ -1,36 +1,35 @@
 header {
   border: solid black 2px;
-  background-color: grey;
+  background-color: Orchid;
   margin: 0.5%;
 }
 
 nav {
   border: solid black 2px;
-  background-color: grey;
+  background-color: Orchid;
   margin: 0.5%;
 }
 
 body {
   border: solid black 2px;
-  background-color: lightgrey;
+  background-color: MediumTurquoise;
 }
 
 section  {
-  display: inline-block;
   border: solid black 2px;
-  background-color: grey;
+  background-color: Orchid;
   margin: 0.5%;
 }
 
 aside {
   border: solid black 2px;
-  background-color: grey;
+  background-color: Orchid;
   margin: 0.5%;
 }
 
 footer {
   border: solid black 2px;
-  background-color: grey;
+  background-color: Orchid;
   margin: 0.5%;
 }
 
