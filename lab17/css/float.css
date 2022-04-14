@@ -1,0 +1,40 @@
+header {
+  border: solid black 2px;
+  background-color: grey;
+  margin: 0.5%;
+}
+
+nav {
+  border: solid black 2px;
+  background-color: grey;
+  margin: 0.5%;
+}
+
+body {
+  border: solid black 2px;
+  background-color: lightgrey;
+}
+
+section  {
+  display: inline-block;
+  border: solid black 2px;
+  background-color: grey;
+  margin: 0.5%;
+}
+
+aside {
+  border: solid black 2px;
+  background-color: grey;
+  margin: 0.5%;
+}
+
+footer {
+  border: solid black 2px;
+  background-color: grey;
+  margin: 0.5%;
+}
+
+img {
+  width: 30vw;
+  border: solid black 2px;
+}
