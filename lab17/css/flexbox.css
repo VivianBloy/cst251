@@ -1,7 +1,16 @@
-header {
+header.flex {
+  flex-direction: column;
   border: solid black 2px;
   background-color: Orchid;
   margin: 0.5%;
+  height: 20vh;
+  width: 70vw;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 nav {
@@ -10,30 +19,64 @@ nav {
   margin: 0.5%;
 }
 
-body {
+body.flex {
+  width: 70vw;
+  align-items: flex-start;
   border: solid black 2px;
   background-color: MediumTurquoise;
 }
 
-section  {
+div#sidebar {
+  flex-wrap: wrap;
+  width: 95vw;
+  border: solid black 2px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+section {
+  align-items: center;
   border: solid black 2px;
   background-color: Orchid;
   margin: 0.5%;
 }
 
-aside {
+section#challenges {
+  width: 75vw;
+}
+
+section#problems {
+  flex-grow: 1;
+  width: 20vw;
+}
+
+section#endresult {
+  flex-grow: 1;
+  width: 20vw;
+}
+
+aside.flex {
+  justify-content:
   border: solid black 2px;
   background-color: Orchid;
   margin: 0.5%;
+  max-width: 20vw;
+  height: auto;
 }
 
 footer {
+  align-content: center;
+  flex-direction: row;
+  align-items: flex-end;
   border: solid black 2px;
   background-color: Orchid;
   margin: 0.5%;
 }
 
 img {
-  width: 30vw;
+  height: 20vh;
+  width: auto;
   border: solid black 2px;
+  max-width: 20vw;
+  height: auto;
 }
