@@ -1,15 +1,16 @@
 header {
-  float: left;
-  display: inline-block;
   border: solid black 2px;
   background-color: seagreen;
+  width: 75vw;
+  height: 20vh;
   margin: 0.5%;
-  width: 60vw;
 }
 
+
 nav {
+  display: block;
   float: right;
-  width: 30vw;
+  width: 10vw;
   border: solid black 2px;
   background-color: seagreen;
   margin: 0.5%;
@@ -27,15 +28,21 @@ section  {
 }
 
 section#challenges {
-  display: inline-block;
   width: 40%;
 }
 
+section.problems {
+  display: inline-block;
+  width: 19%;
+}
+
 aside {
+  display: block;
   float: right;
-  width: 35vw;
+  width: 20vw;
   border: solid black 2px;
   background-color: seagreen;
+  margin: 0.5%;
 }
 
 footer {
