@@ -1,19 +1,46 @@
 header {
+  color: white;
+  margin: 0.5%;
+  background-color: #393951;
   border: solid black 2px;
 }
 
 nav {
+  margin: 0.5%;
+  background-color: #393951;
   border: solid black 2px;
 }
 
 body {
+  color: white;
+  background-color: #5A5981;
   border: solid black 2px;
 }
 
 aside {
+  margin: 0.5%;
+  background-color: #393951;
   border: solid black 2px;
 }
 
 footer {
-  border: solid black 2px;  
+  margin: 0.5%;
+  background-color: #393951;
+  border: solid black 2px;
+}
+
+section {
+  margin: 0.5%;
+  background-color: #393951;
+  border: solid black 2px;
+}
+
+img {
+  width: 300px;
+  height: auto;
+}
+
+a {
+  text-decoration: unerline;
+  color: white;
 }
