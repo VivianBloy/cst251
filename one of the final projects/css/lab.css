@@ -7,6 +7,7 @@ body {
 
 
 aside {
+  transform: translateY(10vh) translateX(10vw);
   text-align: center;
   border: solid 2px #333333;
   border-radius: 10px;
@@ -27,6 +28,7 @@ div#content {
 
 
 header {
+  z-index: 10;
   font-family: Helvetica, Verdana, Arial, "san serif";
   padding-left: 10px;
   margin-bottom: 20px;
@@ -56,4 +58,33 @@ li {
 
 p {
   font-family: "Courier New", monospace;
+  font-weight: 300;
+}
+
+div#background1 img {
+  float: left;
+  width: 10vw;
+}
+
+div#background2 img {
+  float: right;
+  width: 10vw;
+}
+
+div#background3 {
+  transform: translateY(-165vh) translatex(-4vw);
+  width: 25vw;
+  float: right;
+  display: inline-block;
+}
+
+div#background3 img{
+  margin: 3%;
+  float: right;
+  width: 20vw;
+}
+
+
+img {
+  z-index: -1000;
 }
